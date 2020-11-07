@@ -1,0 +1,12 @@
+#tableHead {
+   background-color: white;
+}
+
+.row {
+	margin-bottom: 10px;
+}
+
+.row > div {
+	background-color: gray;
+	border: 1px solid red;
+}
