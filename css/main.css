@@ -17,7 +17,7 @@ body {
 }
 
 #logo-img {
-	background: url('../images/logo.png') no-repeat;
+	background: url('../images/restaurant-logo_large.png') no-repeat;
 	width: 150px;
 	height: 150px;
 	margin: 10px 15px 10px 0;
@@ -100,6 +100,42 @@ body {
 }
 
 
+#menu-tile {
+	background: url('../images/menu-tile.jpg') no-repeat;
+	background-position: center;
+}
+
+#specials-tile {
+	background: url('../images/specials-tile.jpg') no-repeat;
+	background-position: center;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+}
+
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-tile span, #specials-tile span, #map-tile span {
+	position: absolute;
+	bottom: 0; 
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+
 /* Large only */
 @media (min-width: 1200px) {
 
@@ -115,7 +151,7 @@ body {
 @media (min-width: 992px) and (max-width: 1199px) {
 
   #logo-img {
-	background: url('../images/logo-medium.png') no-repeat;
+	background: url('../images/restaurant-logo_medium.png') no-repeat;
 	width: 100px;
 	height: 100px;
 	margin: 5px 5px 5px 0;
@@ -135,7 +171,6 @@ body {
   	background: url('../images/jumbotron_768.jpg') no-repeat;
   	height: 432px;
   }
-
 }
 
 
@@ -174,5 +209,33 @@ body {
   	    padding: 0;
   	    box-shadow: 
   	    height: 558px;
-  }
+    }
+
+    #menu-tile {
+        width: 350px;
+        margin: 0 auto 15px;
+    }
+
+    #specials-tile {
+        width: 350px;
+        margin: 0 auto 15px;
+    }
+}
+
+@media (max-width: 479px) {
+
+	.navbar-branch h1 {
+		padding-top: 5px;
+		font-size: 6vw;
+	}
+
+	#menu-tile {
+		width: 280px;
+        margin: 0 auto 15px;
+	}
+
+	#specials-tile {
+		width: 280px;
+        margin: 0 auto 15px;
+	}
 }
