@@ -1,0 +1,91 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+/* NAV BAR */
+
+#pageNav {
+	background-color: gray;
+	opacity: 0.95;
+}
+
+#pageNav button {
+	border: 1px solid black;
+}
+
+#pageNav button span.icon-bar {
+	border: 1px solid black;
+}
+
+#pageNav .navbar-brand {
+	font-size: 2em;
+	color: black;
+}
+
+.menuItem hr {
+	width: 80%;
+	margin-bottom: 0;
+}
+
+
+#dropDownMenu .menuItem span {
+	color: black;
+	font-size: 1.5em;
+	margin-top: 10px;
+}
+
+/* MAIN CONTENT*/
+
+.columnContent {
+	position: relative;
+	border: 1px solid black;
+	background-color: gray;
+	margin: 10px 10px 50px 0;
+	font-size: 1.5em;
+}
+
+.columnContent > a {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+
+.columnContent > p {
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	padding-top: 5px;
+	margin-bottom: 40px;
+	clear: both;
+}
+
+.columnContent > .sectionTitle {
+	float: right;
+	width: 40%;
+	text-align: center;
+	font-size: 1.25em;
+
+	border: 1px solid black;
+	border-top-width: 0px;
+	border-right-width: 0px;
+}
+
+#menuTitle {
+	font-size: 2em;
+}
+
+#chickenTitle {
+	background-color: salmon;
+}
+
+#beefTitle {
+	background-color: crimson;
+}
+
+#sushiTitle {
+	background-color: gold;
+}
